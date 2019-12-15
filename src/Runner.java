@@ -28,7 +28,7 @@ Runner nextRunner;
                 this.sleep(5000);
                 System.out.println(nextRunner.getName() + "берет палочку");
                 System.out.println(nextRunner.getName()  + " бежит к " + this.getName());
-                System.out.println(this.getName()+" бежит к " +nextRunner.getName());
+                
             }catch (InterruptedException e){}
         } else {
             System.out.println(this.getName() +" бежит к финишу ");
